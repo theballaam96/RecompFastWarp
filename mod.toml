@@ -1,0 +1,16 @@
+[manifest]
+id = "fast_warp"
+version = "1.0.0"
+display_name = "Fast Warp"
+description = "Speeds up the speed of taking a bananaport by replacing the warping animation with the one used within Multiplayer"
+short_description = "Speeds up the speed of taking a bananaport by replacing the warping animation with the one used with"
+authors = [ "Ballaam" ]
+game_id = "dk64"
+minimum_recomp_version = "1.0.0"
+
+[inputs]
+elf_path = "build/mod.elf"
+mod_filename = "fast_warp"
+func_reference_syms_file = "Dk64Syms/dump.toml"
+data_reference_syms_files = [ "Dk64Syms/data_dump.toml" ]
+additional_files = ["thumb.dds"]
